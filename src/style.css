@@ -27,6 +27,8 @@ body {
 
 h1 {
   font-size: 15px;
+  color: rgb(117, 112, 112);
+  margin-left: 3px;
 }
 
 .text {
