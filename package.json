@@ -21,6 +21,7 @@
   "homepage": "https://github.com/SabaAhmad786/webpack-exercise#readme",
   "devDependencies": {
     "css-loader": "^6.7.2",
+    "hint": "^7.1.3",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.75.0",

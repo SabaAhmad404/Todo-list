@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(238, 234, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.my-list{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(209, 208, 208);
+    width: 27%;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(204, 203, 203);
+    height: 40px;
+}
+h1{
+    font-size: 15px;
+}
+.text {
+    border: none;
+    height: 40px;
+}
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 218, 218);
+}
+.list-button{
+    height:40px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(219, 218, 218);
+}
+button{  
+    border: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.list-class{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.para-text{
+    padding-right: 9rem ;
+}
+
+.list-images{
+    width:20px;
+    height:20px;
+    margin-top: 1rem;
+}
+#refresh{
+    margin-right: 6px;
+    color: rgb(168, 160, 160);
+}
+.material-icons{
+    margin-right: 6px;
+    color: rgb(168, 160, 160);
+}
