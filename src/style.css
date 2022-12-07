@@ -42,12 +42,12 @@ h1 {
 }
 
 .list-button {
-  height:40px;
+  height: 40px;
   background-color: rgb(255, 255, 255);
   border-top: 1px solid rgb(219, 218, 218);
 }
 
-button {  
+button {
   border: none;
 }
 
@@ -63,12 +63,12 @@ button {
 }
 
 .para-text {
-  padding-right: 9rem ;
+  padding-right: 9rem;
 }
 
 .list-images {
-  width:20px;
-  height:20px;
+  width: 20px;
+  height: 20px;
   margin-top: 1rem;
 }
 
