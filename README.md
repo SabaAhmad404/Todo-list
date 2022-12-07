@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-- Live version [https://sabaahmad786.github.io/Todo-list/]
+- Live version (https://sabaahmad786.github.io/Todo-list/)
 
 ## Getting Started
 
