@@ -90,7 +90,6 @@ button {
   height: 20px;
   margin-top: 1rem;
   color: rgb(14, 13, 13);
-  
 }
 
 #refresh {
@@ -105,9 +104,8 @@ button {
 
 .inner-div {
   display: flex;
-  flex-direction:column ;
+  flex-direction: column;
   justify-content: flex-start;
-  display: flex;
   gap: 3%;
 }
 
