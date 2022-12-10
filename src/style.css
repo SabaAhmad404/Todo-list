@@ -61,12 +61,13 @@ button {
 
 .list-class {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 5px;
 }
 
 .para-text {
-  margin-right: 13rem;
+  margin-right: 15rem;
 }
 
 .fa-ellipsis-vertical {
@@ -89,6 +90,7 @@ button {
   height: 20px;
   margin-top: 1rem;
   color: rgb(14, 13, 13);
+  
 }
 
 #refresh {
@@ -102,6 +104,9 @@ button {
 }
 
 .inner-div {
+  display: flex;
+  flex-direction:column ;
+  justify-content: flex-start;
   display: flex;
   gap: 3%;
 }

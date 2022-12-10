@@ -14,23 +14,14 @@ const addRemove = () => {
     paragraph.classList.add("para-text");
     paragraph.innerText = arr[i].names;
     itemOfList.append(paragraph);
-    const editImage = document.createElement("i");
-    editImage.classList.add("fa-solid");
-    editImage.classList.add("fa-user-pen");
-    itemOfList.append(editImage);
-
-    const dotsImage = document.createElement("i");
-    dotsImage.classList.add("fa-solid");
-    dotsImage.classList.add("fa-ellipsis-vertical");
-    itemOfList.append(dotsImage);
 
     const binImage = document.createElement("i");
     binImage.classList.add("fa-solid");
     binImage.classList.add("fa-trash");
     itemOfList.append(binImage);
-    binImage.style.display = "none";
+    //delet//
     const deletList = () => {
-      const target = dotsImage.id;
+      const target = binImage.id;
       arr.splice(target, 1);
 
       let newThing = 0;
@@ -41,13 +32,6 @@ const addRemove = () => {
         });
       }
     };
-    dotsImage.addEventListener("click", () => {
-      arr = JSON.parse(localStorage.getItem("arr")) || [];
-      deletList();
-      localStorage.setItem("arr", JSON.stringify(arr));
-      binImage.style.display = "none";
-      window.location.reload();
-    });
 
     binImage.addEventListener("click", () => {
       arr = JSON.parse(localStorage.getItem("arr")) || [];
@@ -57,15 +41,13 @@ const addRemove = () => {
       window.location.reload();
     });
 
-    editImage.addEventListener("click", () => {
-      editImage.style.display = "none";
+    paragraph.addEventListener("click", () => {
       const divElement = document.createElement("div");
       divElement.classList.add("inner-div");
-      paragraph.append(divElement);
+      itemOfList.append(divElement);
       const editText = document.createElement("input");
       editText.setAttribute("type", "text");
       editText.classList.add("inner-text");
-      editText.value = paragraph.innerText;
       divElement.appendChild(editText);
 
       const editButton = document.createElement("Button");
@@ -78,8 +60,6 @@ const addRemove = () => {
         localStorage.setItem("arr", JSON.stringify(arr));
         window.location.reload();
       });
-
-      dotsImage.style.display = "none";
       binImage.style.display = "block";
     });
   }
