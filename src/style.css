@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   border: 1px solid rgb(209, 208, 208);
-  width: 27%;
+  width: 35%;
 }
 
 .heading {
@@ -34,6 +34,7 @@ h1 {
 .text {
   border: none;
   height: 40px;
+  width: 100vh;
 }
 
 .list-items {
@@ -65,21 +66,62 @@ button {
 }
 
 .para-text {
-  padding-right: 9rem;
+  margin-right: 15rem;
 }
 
-.list-images {
+.fa-ellipsis-vertical {
   width: 20px;
   height: 20px;
   margin-top: 1rem;
+  color: rgb(36, 32, 32);
+}
+
+.fa-user-pen {
+  width: 20px;
+  height: 20px;
+  margin-top: 1rem;
+  margin-left: 6rem;
+  color: rgb(14, 13, 13);
+}
+
+.fa-trash {
+  width: 20px;
+  height: 20px;
+  margin-top: 1rem;
+  color: rgb(14, 13, 13);
 }
 
 #refresh {
   margin-right: 6px;
-  color: rgb(168, 160, 160);
+  color: rgb(32, 30, 30);
 }
 
 .material-icons {
   margin-right: 6px;
-  color: rgb(168, 160, 160);
+  color: rgb(31, 29, 29);
+}
+
+.inner-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3%;
+}
+
+.inner-text {
+  width: 6.7rem;
+  margin-top: 2%;
+}
+
+.inner-button {
+  background-color: black;
+  color: white;
+  width: 37px;
+  height: 20px;
+  margin-top: 2%;
+}
+
+.cancel-text {
+  text-decoration: line-through;
+  color: aqua;
 }
