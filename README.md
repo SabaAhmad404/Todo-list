@@ -42,7 +42,7 @@ is a website that helps to organize your day. It simply lists the things that yo
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Please use the following [link](https://sabaahmad786.github.io/Todo-list/)
+Please use the following [link](https://sabaahmad786.github.io/Todo-list/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
