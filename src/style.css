@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(238, 234, 234);
+  background-color: rgb(5, 5, 5);
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
   display: flex;
@@ -123,5 +123,5 @@ button {
 
 .cancel-text {
   text-decoration: line-through;
-  color: aqua;
+  color: rgb(75, 4, 4);
 }
